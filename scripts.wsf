@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<package>
+    <job id="CaptureScreen">
+        <?job error="false" debug="true"?>
+        <runtime>
+            <description>
+                10秒おきにスクリーンを撮影し、1日おきに動画を作成する。
+            </description>
+            <example>
+                Example: cscript scripts.wsf //Job:CaptureScreen
+            </example>
+        </runtime>
+        <script language="VBScript" src="string.vbs" />
+        <script language="VBScript" src="datetime.vbs" />
+        <script language="VBScript" src="capture-screen.vbs" />
+    </job>
+</package>
